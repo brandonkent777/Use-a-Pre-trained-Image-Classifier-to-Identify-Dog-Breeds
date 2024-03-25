@@ -1,0 +1,23 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: 
+The classifier did choose the same/correct breed of the image of the dog_01.jpg in all three architectures. 
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: 
+Yes each architecture classified dog_01.jpg and dog_02.jpg as the same breed correctly
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: 
+Yes
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer:
+All architecutres got the same correct result. I believe the "Alexnet" is the best arcitecture for classifying these images because it was the fastest to process the images and return a result with a "Total Elapsed Runtime" of  0:0:1.0 The others were 5 seconds and 9 seconds in total.
